@@ -9,5 +9,13 @@ namespace InheritanceIntro {
     public override void Drive () {
       Console.WriteLine ($"*Silence* goes the {MainColor} {Name}.");
     }
+
+    public override void Turn () {
+      Console.WriteLine ($"The {Name} turns right.");
+    }
+
+    public override void Stop () {
+      Console.WriteLine ($"The {Name} silently stops.");
+    }
   }
 }

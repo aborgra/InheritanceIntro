@@ -11,5 +11,13 @@ namespace InheritanceIntro {
     public virtual void Drive () {
       Console.WriteLine ($"Vroom!");
     }
+
+    public virtual void Turn () {
+      Console.WriteLine ($"Turn");
+    }
+
+    public virtual void Stop () {
+      Console.WriteLine ($"Stop");
+    }
   }
 }

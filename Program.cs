@@ -27,6 +27,16 @@ namespace InheritanceIntro {
             myBike.Drive ();
             myRoboTruck.Drive ();
             myPlane.Drive ();
+
+            myWorkTruck.Turn ();
+            myBike.Turn ();
+            myRoboTruck.Turn ();
+            myPlane.Turn ();
+
+            myWorkTruck.Stop ();
+            myBike.Stop ();
+            myRoboTruck.Stop ();
+            myPlane.Stop ();
         }
     }
 }
